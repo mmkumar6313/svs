@@ -488,13 +488,14 @@
       }
 
       .product-image-wrap {
-        height: 120px;
+        height: 280px;
       }
 
-      /* .product-name {
-        font-size: 10.5px;
-        min-height: 62px;
-      } */
+
+      .product-name {
+        font-size: 13px;
+        /* min-height: 62px; */
+      }
 
       .view-btn {
         padding: 7px 13px;
@@ -508,6 +509,16 @@
       .cta h2 {
         font-size: 21px;
       }
+      #about .section-title{
+          font-size: 18px;
+      }
+      #about p{
+
+    font-size: 12px;
+    font-weight: 400;
+
+      }
+
     }
 
 
