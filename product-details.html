@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sri Venkateswara Scales - Commercial weighing machines and spare parts.">
+
+  <title>Sri Venkateswara Scales</title>
+
+  <!-- Bootstrap 5.3.8 -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+
+    <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+  >
+
+  <!-- Swiper 14.3.0 -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@14.3.0/swiper-bundle.min.css"
+  >
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <!-- font-family: "Inter", sans-serif; -->
+
+</head>
+
+<body>
+
+  <!-- =========================
+       BRAND / LANGUAGE
+       ========================= -->
+  <header class="brand-bar">
+    <a href="#home" aria-label="Sri Venkateswara Scales">
+      <img src="assets/img/logo.png" alt="Sri Venkateswara Scales" class="brand-logo">
+    </a>
+
+    <div class="language-switcher" aria-label="Language selection">
+      <button type="button" class="lang-btn" data-lang="en">English</button>
+      <button type="button" class="lang-btn" data-lang="te">Telugu</button>
+    </div>
+  </header>
+
+  <!-- =========================
+       NAVIGATION
+       ========================= -->
+  <nav class="main-nav">
+    <div class="container-fluid px-3">
+      <div class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand d-lg-none" href="#home">
+          <span data-i18n="menu">Menu</span>
+        </a>
+
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+          aria-controls="mainMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home" data-i18n="home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nogo" data-i18n="about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#products" data-i18n="products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nogo" data-i18n="contact">Contact Us</a>
+            </li>
+          </ul>
+
+          <div class="phone-wrap">
+            <a href="tel:+919948915151" class="phone-link">☎ +91 99489 15151</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+ <main class="details-page">
+
+    <!-- Back -->
+    <a href="index.html#products" class="back-link" aria-label="Back to products">
+      <i class="bi bi-arrow-left"></i>
+      <span>Back</span>
+    </a>
+
+    <!-- Product Details -->
+    <section class="product-details-card">
+
+      <!-- Product Image -->
+      <div class="product-main-image">
+        <!-- Change this path to the selected product image -->
+        <img
+          src="assets/img/prod-details.png"
+          alt="30kg x 1g commercial weighing scale"
+        >
+      </div>
+
+      <!-- Product Title -->
+      <h1 class="product-title">
+        30kg x 1g commercial scale with stamp &amp; certificate,
+        175×225mm SS Pan, Front &amp; Pole Green Display, Rechargeable
+      </h1>
+
+      <!-- Features -->
+      <div class="row features-row g-3">
+
+        <div class="col-4 feature-item">
+          <div class="feature-icon">
+            <i class="bi bi-box-seam"></i>
+          </div>
+          <p class="feature-title">
+            1 Year<br>Warranty
+          </p>
+        </div>
+
+        <div class="col-4 feature-item">
+          <div class="feature-icon">
+            <i class="bi bi-truck"></i>
+          </div>
+          <p class="feature-title">
+            Free<br>Delivery
+          </p>
+        </div>
+
+        <div class="col-4 feature-item">
+          <div class="feature-icon">
+            <i class="bi bi-person-gear"></i>
+          </div>
+          <p class="feature-title">
+            Quick on<br>call support
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Customer Details -->
+      <div class="customer-box">
+
+        <h2 class="customer-title">
+          Customer Details
+        </h2>
+
+        <form id="customerForm">
+
+          <div class="mb-4">
+            <label for="customerName" class="form-label">
+              Name*
+            </label>
+
+            <input
+              type="text"
+              class="form-control"
+              id="customerName"
+              name="name"
+              required
+              autocomplete="name"
+            >
+          </div>
+
+          <div class="mb-4">
+            <label for="customerMobile" class="form-label">
+              Mobile Number*
+            </label>
+
+            <input
+              type="tel"
+              class="form-control"
+              id="customerMobile"
+              name="mobile"
+              required
+              inputmode="numeric"
+              pattern="[0-9]{10}"
+              maxlength="10"
+              autocomplete="tel"
+            >
+          </div>
+
+          <div class="mb-3">
+            <label for="customerAddress" class="form-label">
+              Address*
+            </label>
+
+            <textarea
+              class="form-control"
+              id="customerAddress"
+              name="address"
+              rows="4"
+              required
+              autocomplete="street-address"
+            ></textarea>
+          </div>
+
+          <!--
+            RAZORPAY:
+            This button is ready for Razorpay integration.
+            Replace the demo submit code below with your backend
+            order-creation + Razorpay Checkout code.
+          -->
+          <button type="submit" class="buy-btn">
+            Buy Now / Securely
+          </button>
+
+          <p class="secure-note">
+            You will be redirected to Razorpay's secure checkout.
+          </p>
+
+        </form>
+
+      </div>
+
+      <!-- Shipping -->
+      <p class="shipping-note">
+        (Inclusive of 18% GST &amp; Doorstep Delivery) Shipping Free Across Telangana.
+      </p>
+
+    </section>
+
+  </main>
+
+  <!-- =========================
+       FOOTER
+       ========================= -->
+  <footer class="footer">
+    <div class="container">
+
+      <img src="assets/img/logo.png"
+           alt="Sri Venkateswara Scales"
+           class="footer-logo"
+           loading="lazy">
+
+      <p class="footer-description" data-i18n="footerText">
+        Sri Venkateswara Scales provides quality weighing solutions for shops,
+        businesses and commercial requirements with reliable products and service.
+      </p>
+
+      <h3 data-i18n="location">Location</h3>
+
+      <p>Old Bus Stand, Karimnagar Road, Siddipet 502103</p>
+      <p>Phone: +91 99489 15151</p>
+
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=Old+Bus+Stand+Karimnagar+Road+Siddipet+502103"
+        target="_blank"
+        rel="noopener"
+        class="map-link"
+        data-i18n="googleMap"
+      >
+        Click here for google map
+      </a>
+    </div>
+
+    <div class="copyright">
+      Copyright © 2026 Sri Venkateswara Scale. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous">
+  </script>
+
+  <!-- Swiper 14.3.0 -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@14.3.0/swiper-bundle.min.js"></script>
+
+  <script>
+    /* =========================
+       SWIPER
+       ========================= */
+    const heroSwiper = new Swiper('.hero-swiper', {
+      loop: true,
+      speed: 700,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: '.hero-swiper .swiper-pagination',
+        clickable: true
+      },
+      navigation: {
+        nextEl: '.hero-swiper .swiper-button-next',
+        prevEl: '.hero-swiper .swiper-button-prev'
+      },
+      keyboard: {
+        enabled: true
+      },
+      grabCursor: true
+    });
+
+    /* =========================
+       LANGUAGE SWITCHER
+       Saves the selected language in localStorage,
+       so the same language is shown next time.
+       ========================= */
+    const translations = {
+      en: {
+        menu: "Menu",
+        home: "Home",
+        about: "About",
+        products: "Products",
+        contact: "Contact Us",
+        aboutTitle: "Welcome to Sri Venkateswara Scale",
+        aboutText: "Sri Venkateswara Scales provides reliable commercial and retail weighing machines, accessories and spare parts for shops, businesses and daily weighing requirements.",
+        viewDetails: "View Details",
+        spareParts: "Spare Parts",
+        ctaTitle: "Need a Weighing Machine?",
+        ctaText: "Contact us for product details",
+        whatsapp: "WhatsApp Enquiry",
+        location: "Location",
+        googleMap: "Click here for google map",
+        footerText: "Sri Venkateswara Scales provides quality weighing solutions for shops, businesses and commercial requirements with reliable products and service.",
+        p1: "30kg x 1g commercial scale with stamp & certificate, 175×225mm SS Pan, Front & Pole Green Display, Rechargeable",
+        p2: "30kg x 1g Smart Bluetooth Scale | Stamp & Certificate | 250×300mm SS Pan | Free Android & Windows Weight Recording App | Front & Back Green Display",
+        p3: "30kg x 1g commercial platform scale with stamp & certificate, 175×225mm SS Pan, Front & Pole Green Display, Rechargeable",
+        p4: "30kg x 1g Smart Bluetooth Scale | Stamp & Certificate | 250×300mm SS Pan | Free Android & Windows Weight Recording App | Front & Back Green Display",
+        p5: "30kg x 1g commercial scale with stamp & certificate, 175×225mm SS Pan, Front & Pole Green Display, Rechargeable",
+        p6: "30kg x 1g Smart Bluetooth Scale | Stamp & Certificate | 250×300mm SS Pan | Free Android & Windows Weight Recording App | Front & Back Green Display"
+      },
+
+      te: {
+        menu: "మెను",
+        home: "హోమ్",
+        about: "మా గురించి",
+        products: "ప్రొడక్ట్స్",
+        contact: "కాంటాక్ట్",
+        aboutTitle: "శ్రీ వేంకటేశ్వర స్కేల్‌కు స్వాగతం.",
+        aboutText: "షాపులు, వ్యాపారాలు మరియు కమర్షియల్ అవసరాల కోసం నమ్మకమైన వెయింగ్ మెషీన్లు, యాక్సెసరీస్ మరియు స్పేర్ పార్ట్స్ అందిస్తున్నాము.",
+        viewDetails: "వివరాలు చూడండి",
+        spareParts: "స్పేర్ పార్ట్స్",
+        ctaTitle: "వెయింగ్ మెషిన్ కావాలా?",
+        ctaText: "ప్రొడక్ట్ వివరాల కోసం మమ్మల్ని సంప్రదించండి",
+        whatsapp: "WhatsApp ద్వారా సంప్రదించండి",
+        location: "లొకేషన్",
+        googleMap: "Google Map కోసం ఇక్కడ క్లిక్ చేయండి",
+        footerText: "షాపులు, వ్యాపారాలు మరియు కమర్షియల్ అవసరాల కోసం నాణ్యమైన వెయింగ్ సొల్యూషన్స్ మరియు నమ్మకమైన సర్వీస్ అందిస్తున్నాము.",
+        p1: "30kg x 1g కమర్షియల్ స్కేల్, స్టాంప్ & సర్టిఫికేట్, 175×225mm SS Pan, Front & Pole Green Display, Rechargeable",
+        p2: "30kg x 1g Smart Bluetooth Scale | Stamp & Certificate | 250×300mm SS Pan | Android & Windows Weight Recording App | Front & Back Green Display",
+        p3: "30kg x 1g కమర్షియల్ ప్లాట్‌ఫామ్ స్కేల్, స్టాంప్ & సర్టిఫికేట్, 175×225mm SS Pan, Front & Pole Green Display, Rechargeable",
+        p4: "30kg x 1g Smart Bluetooth Scale | Stamp & Certificate | 250×300mm SS Pan | Android & Windows Weight Recording App | Front & Back Green Display",
+        p5: "30kg x 1g కమర్షియల్ స్కేల్, స్టాంప్ & సర్టిఫికేట్, 175×225mm SS Pan, Front & Pole Green Display, Rechargeable",
+        p6: "30kg x 1g Smart Bluetooth Scale | Stamp & Certificate | 250×300mm SS Pan | Android & Windows Weight Recording App | Front & Back Green Display"
+      }
+    };
+
+    function setLanguage(lang) {
+      const selected = translations[lang] ? lang : 'en';
+
+      document.documentElement.lang = selected === 'te' ? 'te' : 'en';
+
+      document.querySelectorAll('[data-i18n]').forEach((element) => {
+        const key = element.getAttribute('data-i18n');
+
+        if (translations[selected][key]) {
+          element.textContent = translations[selected][key];
+        }
+      });
+
+      document.querySelectorAll('.lang-btn').forEach((button) => {
+        button.classList.toggle(
+          'active',
+          button.dataset.lang === selected
+        );
+      });
+
+      localStorage.setItem('svs-language', selected);
+    }
+
+    document.querySelectorAll('.lang-btn').forEach((button) => {
+      button.addEventListener('click', () => {
+        setLanguage(button.dataset.lang);
+      });
+    });
+
+    const savedLanguage = localStorage.getItem('svs-language') || 'en';
+    setLanguage(savedLanguage);
+
+    /* Close Bootstrap mobile menu after clicking a menu item */
+    document.querySelectorAll('#mainMenu .nav-link').forEach((link) => {
+      link.addEventListener('click', () => {
+        const menu = document.getElementById('mainMenu');
+        const collapse = bootstrap.Collapse.getInstance(menu);
+
+        if (collapse) {
+          collapse.hide();
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
